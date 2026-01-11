@@ -9949,3 +9949,21 @@ a {
 section {
   scroll-margin-top: 80px; /* height of navbar */
 }
+
+@media (max-width: 768px) {
+  .hero-wrap {
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+  }
+}
+html, body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .js-fullheight {
+    height: auto !important;
+    min-height: 100vh;
+  }
+}
