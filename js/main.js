@@ -8,14 +8,14 @@
 
 	"use strict";
 
-	if($(window).width()>768){$(window).stellar({
+	$(window).stellar({
     responsive: true,
     parallaxBackgrounds: true,
     parallaxElements: true,
     horizontalScrolling: false,
     hideDistantElements: false,
     scrollProperty: 'scroll'
-  });}
+  });
 
 
 	var fullHeight = function() {
